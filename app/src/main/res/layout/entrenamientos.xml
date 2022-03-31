@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+
+
+    <Button
+        android:id="@+id/DarPatita"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Dar la patita"
+        android:backgroundTint="#372F18"
+        android:fontFamily=""/>
+
+    <Button
+        android:id="@+id/btSentarse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Dar la patita"
+        android:backgroundTint="#372F18" />
+
+    <Button
+        android:id="@+id/btirpelota"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Dar la patita"
+        android:backgroundTint="#372F18" />
+
+
+
+</LinearLayout>
