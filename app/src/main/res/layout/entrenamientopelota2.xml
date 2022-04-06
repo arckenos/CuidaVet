@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:text="Ir por la pelota paso 2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:src="@drawable/perropelotaa" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="Instrucciones"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:text="Una vez que el perro recoge la pelota y la tiene en la boca tiene que acudir a tu llamada por ello debe entender la orden “ven”. Si tu perro todavía no domina esta orden … puedes practicarla a la hora de la comida. Mientras tu perro se aproxima hacia ti puedes decirle “ven” para darle comida."
+        android:textAlignment="inherit"
+        android:textSize="20dp" />
+</LinearLayout>

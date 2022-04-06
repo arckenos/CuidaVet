@@ -6,28 +6,35 @@
     android:layout_margin="30dp">
 
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrenamientos"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
     <Button
-        android:id="@+id/DarPatita"
+        android:id="@+id/btdarPatita"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Dar la patita"
         android:backgroundTint="#372F18"
-        android:fontFamily=""/>
+        android:text="Dar la patita"/>
+
 
     <Button
         android:id="@+id/btSentarse"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Dar la patita"
-        android:backgroundTint="#372F18" />
+        android:backgroundTint="#372F18"
+        android:text="Sentarse" />
 
     <Button
         android:id="@+id/btirpelota"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Dar la patita"
-        android:backgroundTint="#372F18" />
-
+        android:backgroundTint="#372F18"
+        android:text="Ir por la pelota" />
 
 
 </LinearLayout>
