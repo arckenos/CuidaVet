@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">CuidaVet</string>
+
+    <string name="boton_hecho">Hecho</string>
+    <string name="aviso_privacidad">Aviso de privacidad</string>
+    <string name="mis_mascotas">Mis mascotas</string>
+    <string name="notas">Notas</string>
+    <string name="cambiar_usuario">Cambiar usuario</string>
+    <string name="cambiar_contrasena">Cambiar contraseña</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="foro_tips">Foro y Tips</string>
+    <string name="foro">Foro</string>
+    <string name="tips">Tips</string>
+    <string name="habitos_saludables">Hábitos saludables</string>
+    <string name="calendario">Calendario</string>
+    <string name="boton_empezar">Empezar</string>
+    <string name="nombre_mascosta">Nombre de la mascota</string>
+    <string name="edad">Edad</string>
+    <string name="raza">Raza</string>
+
 </resources>
