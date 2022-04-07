@@ -33,7 +33,7 @@
         android:background="@drawable/round_button_cafe_claro"
         android:text="hecho"
         android:layout_marginStart="100dp"
-        android:textColor="@color/black" />
+        android:textColor="@color/white" />
 
     <ImageView
         android:id="@+id/iv_huella"

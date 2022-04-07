@@ -10,7 +10,9 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import gutierrez.rafael.cuidavet.R
 import gutierrez.rafael.cuidavet.calendario
+import gutierrez.rafael.cuidavet.databinding.FragmentMascotasBinding
 import gutierrez.rafael.cuidavet.databinding.FragmentMenuHomeBinding
+import gutierrez.rafael.cuidavet.ui.mismascotas.MismascotasFragment
 
 class HomeFragment : Fragment() {
 
@@ -25,10 +27,17 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+
         val bin = FragmentMenuHomeBinding.inflate(layoutInflater)
+
         bin.btnCalendario.setOnClickListener {
             val intent = Intent(this@HomeFragment.requireContext(), calendario::class.java)
             startActivity(intent)
+        }
+        bin.btnMascotas.setOnClickListener {
+            val fragment = MismascotasFragment()
+            val transaction = fragmentManager?.beginTransaction()
+            transaction?.replace(R.id.nav_view, fragment)?.commit()
         }
 
         return bin.root

@@ -67,7 +67,7 @@
         android:layout_marginTop="20dp"
         android:paddingHorizontal="15dp"
         android:textSize="20sp"
-        android:textColor="@color/cafe_claro"
+        android:textColor="@color/white"
         android:background="@drawable/round_clear_button_cafe_claro"
         />
 

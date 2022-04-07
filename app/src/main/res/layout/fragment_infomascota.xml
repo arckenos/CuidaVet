@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    tools:context=".mascota_info">
-
-    <Button
-        android:id="@+id/btnVolver"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="volver"
-        android:background="@drawable/round_button_cafe_claro"
-        android:textColor="@color/white"
-        />
-
+    tools:context=".ui.infomascota.InfomascotaFragment">
 
     <ImageView
+        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:src="@drawable/mascota"

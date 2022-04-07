@@ -30,19 +30,8 @@
             android:name=".iniciar_sesion"
             android:exported="false" />
         <activity
-            android:name=".registro_mascota"
-            android:exported="false" />
-        <activity
             android:name=".registro"
             android:exported="false" />
-        <activity
-            android:name=".mascota_info"
-            android:exported="false" />
-        <activity
-            android:name=".mascotas"
-            android:exported="false"
-            android:label="@string/title_activity_mascotas"
-            android:theme="@style/Theme.CuidaVet.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />

@@ -33,7 +33,7 @@ class MenuDesplegable : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home
+                R.id.nav_home, R.id.nav_agregarmascota
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

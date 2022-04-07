@@ -8,30 +8,46 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="gutierrez.rafael.cuidavet.ui.home.HomeFragment"
-        android:label="menu"
+        android:label=""
         tools:layout="@layout/fragment_menu_home" />
 
     <fragment
         android:id="@+id/nav_note"
         android:name="gutierrez.rafael.cuidavet.ui.note.NoteFragment"
-        android:label="notas"
+        android:label=""
         tools:layout="@layout/fragment_notas" />
 
     <fragment
         android:id="@+id/nav_cambiarusuario"
         android:name="gutierrez.rafael.cuidavet.ui.cambiarusuario.CambiarusuarioFragment"
-        android:label="cambiarusuario"
+        android:label=""
         tools:layout="@layout/fragment_editarusuario" />
 
     <fragment
         android:id="@+id/nav_cambiarcontrasena"
         android:name="gutierrez.rafael.cuidavet.ui.cambiarcontrasena.CambiarcontrasenaFragment"
-        android:label="cambiarcontrasena"
+        android:label=""
         tools:layout="@layout/fragment_cambiarcontra" />
 
     <fragment
         android:id="@+id/nav_privacidad"
         android:name="gutierrez.rafael.cuidavet.ui.avisoprivacidad.AvisoFragment"
-        android:label="avisoprivacidad"
+        android:label=""
         tools:layout="@layout/fragment_avisoprivacidad" />
+
+    <fragment
+        android:id="@+id/nav_mismascotas"
+        android:name="gutierrez.rafael.cuidavet.ui.mismascotas.MismascotasFragment"
+        android:label=""
+        tools:layout="@layout/fragment_mascotas" />
+    <fragment
+        android:id="@+id/nav_infomascota"
+        android:name="gutierrez.rafael.cuidavet.ui.infomascota.InfomascotaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_infomascota" />
+    <fragment
+        android:id="@+id/nav_agregarmascota"
+        android:name="gutierrez.rafael.cuidavet.ui.agregarmascota.AgregarmascotaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_agregarmascota" />
 </navigation>

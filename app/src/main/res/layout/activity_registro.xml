@@ -8,17 +8,8 @@
     android:orientation="vertical"
     >
 
-    <Button
-        android:id="@+id/btnVolver"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="volver"
-        android:background="@drawable/round_button_cafe_claro"
-        android:textColor="@color/white"
-        />
-
-
     <TextView
+        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -29,8 +20,6 @@
         android:textColor="@color/white"
         android:textSize="30sp"
         android:layout_marginBottom="50dp"
-
-
         />
 
     <EditText
@@ -38,7 +27,7 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/round_et"
         android:hint="Nombre (dueñ@)"
         android:inputType="textPersonName"
@@ -96,7 +85,7 @@
         android:layout_marginTop="50dp"
         android:textSize="20sp"
         android:paddingHorizontal="15dp"
-        android:textColor="@color/cafe_claro"
+        android:textColor="@color/white"
         android:background="@drawable/round_clear_button_cafe_claro"
         />
 
