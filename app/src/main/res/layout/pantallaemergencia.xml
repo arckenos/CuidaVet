@@ -8,19 +8,20 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="52dp"
+        android:background="#D6BE76"
         android:text="Llamada de emergencia"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30dp" />
+
 
     <Button
         android:id="@+id/btLamarDuenio"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:backgroundTint="#372F18"
-        android:text="Llamar al dueño"/>
-
+        android:text="Llamar al dueño" />
 
     <Button
         android:id="@+id/btLlamarVeterinario"
