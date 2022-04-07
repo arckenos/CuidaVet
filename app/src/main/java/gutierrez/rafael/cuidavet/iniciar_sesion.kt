@@ -16,8 +16,8 @@ class iniciar_sesion : AppCompatActivity() {
         val btnUsuarioNuevo : Button = findViewById(R.id.btnUsuarioNuevo)
 
         btnIniciar.setOnClickListener {
-            //var intent : Intent = Intent(this, )
-            //startActivity(intent)
+            var intent : Intent = Intent(this, MenuDesplegable::class.java)
+            startActivity(intent)
         }
 
 

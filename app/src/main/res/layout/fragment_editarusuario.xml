@@ -3,11 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".editar_usuario"
-
-    >
+    tools:context=".ui.cambiarusuario.CambiarusuarioFragment">
 
     <Button
         android:id="@+id/btnVolver"
@@ -15,51 +13,49 @@
         android:layout_height="wrap_content"
         android:text="volver"
         android:background="@drawable/round_button_cafe_claro"
-        android:textColor="@color/white"
-        />
-
+        android:textColor="@color/white" />
 
     <EditText
         android:id="@+id/etUsuarioActual"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="5dp"
-        android:layout_marginTop="50dp"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:hint = "Usuario Actual"
-        android:textSize="20sp"
-        android:inputType="text"
         android:layout_gravity="center"
+        android:layout_marginTop="50dp"
         android:background="@drawable/round_et"
-        />
+        android:hint="Usuario Actual"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/etUsuarioNuevo"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="5dp"
-        android:layout_marginTop="30dp"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:hint = "Usuario Nuevo"
-        android:textSize="20sp"
-        android:inputType="text"
         android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         android:background="@drawable/round_et"
-        />
+        android:hint="Usuario Nuevo"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/etContrasenia"
-        android:paddingHorizontal="10dp"
-        android:paddingVertical="5dp"
-        android:textSize="20sp"
-        android:layout_marginTop="30dp"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:hint = "Constraseña"
-        android:inputType="textPassword"
         android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         android:background="@drawable/round_et"
-        />
+        android:hint="Constraseña"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnIniciar"
@@ -71,8 +67,7 @@
         android:textSize="20sp"
         android:paddingHorizontal="15dp"
         android:textColor="@color/cafe_claro"
-        android:background="@drawable/round_clear_button_cafe_claro"
-        />
+        android:background="@drawable/round_clear_button_cafe_claro" />
 
 
     <ImageView
@@ -81,5 +76,4 @@
         android:layout_height="200dp"
         android:src="@drawable/huella"
         />
-
 </LinearLayout>

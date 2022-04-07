@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".calendario">
+
+    <Button
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button_cafe_claro"
+        android:text="Celendario"
+        android:textColor="@color/cafe_osucro"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/iv_calendario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calendarioabril"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_eventos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eventos"
+        android:textSize="20dp"/>
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
