@@ -12,6 +12,7 @@ import gutierrez.rafael.cuidavet.R
 import gutierrez.rafael.cuidavet.calendario
 import gutierrez.rafael.cuidavet.databinding.FragmentMascotasBinding
 import gutierrez.rafael.cuidavet.databinding.FragmentMenuHomeBinding
+import gutierrez.rafael.cuidavet.mis_mascotas
 import gutierrez.rafael.cuidavet.ui.mismascotas.MismascotasFragment
 
 class HomeFragment : Fragment() {
@@ -35,9 +36,8 @@ class HomeFragment : Fragment() {
             startActivity(intent)
         }
         bin.btnMascotas.setOnClickListener {
-            val fragment = MismascotasFragment()
-            val transaction = fragmentManager?.beginTransaction()
-            transaction?.replace(R.id.nav_view, fragment)?.commit()
+            val intent = Intent(this@HomeFragment.requireContext(), mis_mascotas::class.java)
+            startActivity(intent)
         }
 
         return bin.root

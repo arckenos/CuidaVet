@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CuidaVet">
         <activity
+            android:name=".info_mascota"
+            android:exported="false" />
+        <activity
+            android:name=".mis_mascotas"
+            android:exported="false" />
+        <activity
+            android:name=".agregar_mascota"
+            android:exported="false" />
+        <activity
             android:name=".calendario"
             android:exported="false" />
         <activity
