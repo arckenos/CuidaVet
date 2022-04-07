@@ -13,6 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="volver"
+        android:background="@drawable/round_button_cafe_claro"
+        android:textColor="@color/white"
         />
 
 
@@ -93,7 +95,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:textSize="20sp"
-        android:textColor="@color/white"
+        android:paddingHorizontal="15dp"
+        android:textColor="@color/cafe_claro"
         android:background="@drawable/round_clear_button_cafe_claro"
         />
 

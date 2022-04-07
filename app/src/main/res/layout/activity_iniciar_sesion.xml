@@ -65,8 +65,9 @@
         android:text="Usuario nuevo"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:paddingHorizontal="15dp"
         android:textSize="20sp"
-        android:textColor="@color/white"
+        android:textColor="@color/cafe_claro"
         android:background="@drawable/round_clear_button_cafe_claro"
         />
 
