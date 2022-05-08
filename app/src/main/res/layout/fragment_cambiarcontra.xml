@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="ui.cambiarcontrasena.CambiarcontrasenaFragment">
+
+    <EditText
+        android:id="@+id/etContrasenia"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:textSize="20sp"
+        android:layout_marginTop="100dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint = "Constraseña Actual"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:background="@drawable/round_et"
+        />
+
+    <EditText
+        android:id="@+id/etNuevaContrasenia"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint = "Nueva Contraseña"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:background="@drawable/round_et"
+        />
+
+    <EditText
+        android:id="@+id/etConfirmarNuevaContrasenia"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint = "Confirmar Contraseña"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:background="@drawable/round_et"
+        />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_clear_button_cafe_claro"
+        android:text="Guardar"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/huella"
+        />
+
+
+</LinearLayout>

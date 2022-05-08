@@ -1,15 +1,11 @@
 package gutierrez.rafael.cuidavet
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class calendario : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        var intent : Intent = Intent(this, inicio::class.java)
-        startActivity(intent)
-
+        setContentView(R.layout.activity_calendario)
     }
 }

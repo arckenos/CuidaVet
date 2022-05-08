@@ -1,21 +1,27 @@
 <resources>
     <string name="app_name">CuidaVet</string>
+    <string name="title_activity_mascotas">mascotas</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 
-    <string name="boton_hecho">Hecho</string>
-    <string name="aviso_privacidad">Aviso de privacidad</string>
-    <string name="mis_mascotas">Mis mascotas</string>
-    <string name="notas">Notas</string>
-    <string name="cambiar_usuario">Cambiar usuario</string>
-    <string name="cambiar_contrasena">Cambiar contraseña</string>
-    <string name="cerrar_sesion">Cerrar sesión</string>
-    <string name="foro_tips">Foro y Tips</string>
-    <string name="foro">Foro</string>
-    <string name="tips">Tips</string>
-    <string name="habitos_saludables">Hábitos saludables</string>
-    <string name="calendario">Calendario</string>
-    <string name="boton_empezar">Empezar</string>
-    <string name="nombre_mascosta">Nombre de la mascota</string>
-    <string name="edad">Edad</string>
-    <string name="raza">Raza</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_menu_desplegable">MenuDesplegable</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="texto_privacidad">El presente Aviso de Privacidad (aviso) se emite en cumplimiento por lo dispuesto por el artículo 15 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP), de los Lineamientos Generales previstos en el artículo 43, en su fracción III de esta Ley y del artículo 23 de su Reglamento. El Centro Mexicano para la Filantropía, A.C. (Cemefi) tiene el compromiso jurídico legal y social de cumplir con las medidas legales y de seguridad para proteger sus datos personales con el objetivo de que usted tenga el conocimiento, control y decisión sobre ellos.</string>
 
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

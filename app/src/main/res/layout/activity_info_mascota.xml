@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info_mascota"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:gravity="start"
+        android:background="@color/cafe_claro"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/mascota"
+        />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/cafe_osucro"
+
+        />
+
+    <TextView
+        android:id="@+id/tvEdad"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/cafe_osucro"
+        />
+
+    <TextView
+        android:id="@+id/tvRaza"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raza"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/cafe_osucro"
+        />
+
+</LinearLayout>
