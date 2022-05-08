@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "208169649798",
+    "project_id": "cuida-vet",
+    "storage_bucket": "cuida-vet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208169649798:android:438dfc547e8bce1981b307",
+        "android_client_info": {
+          "package_name": "gutierrez.rafael.cuidavet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208169649798-amsugrcu3en2bcs1f1sfhtfcudmjl8jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbgmxH6PlqUa0ggAAAxuSqx4Q6BAYJd-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208169649798-amsugrcu3en2bcs1f1sfhtfcudmjl8jf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
