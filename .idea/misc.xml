@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Fidel/Documents/GitHub/CuidaVet/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Fidel/Documents/GitHub/CuidaVet/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/Users/Fidel/Documents/GitHub/CuidaVet/app/src/main/res/layout/entrenamientopata1.xml" value="0.264" />
         <entry key="..\:/Users/Fidel/Documents/GitHub/CuidaVet/app/src/main/res/layout/entrenamientopata2.xml" value="0.25" />
         <entry key="..\:/Users/Fidel/Documents/GitHub/CuidaVet/app/src/main/res/layout/entrenamientopata3.xml" value="0.25" />
@@ -20,6 +21,7 @@
         <entry key="..\:/Users/Fidel/Documents/GitHub/CuidaVet/app/src/main/res/layout/habito3.xml" value="0.25" />
         <entry key="..\:/Users/Fidel/Documents/GitHub/CuidaVet/app/src/main/res/layout/habito4.xml" value="0.25" />
         <entry key="..\:/Users/Fidel/Documents/GitHub/CuidaVet/app/src/main/res/layout/pantallaemergencia.xml" value="0.264" />
+        <entry key="..\:/Users/Fidel/Documents/GitHub/CuidaVet/app/src/main/res/layout/splash.xml" value="0.24895833333333334" />
       </map>
     </option>
   </component>

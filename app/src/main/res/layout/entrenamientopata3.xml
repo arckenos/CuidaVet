@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="87dp"
-        android:text="Dar la pata"
+        android:text="Dar la pata paso 3"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30dp" />
