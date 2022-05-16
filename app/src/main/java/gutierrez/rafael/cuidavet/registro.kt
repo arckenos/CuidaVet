@@ -3,19 +3,19 @@ package gutierrez.rafael.cuidavet
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.Button
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
 import gutierrez.rafael.cuidavet.databinding.ActivityRegistroBinding
-
 
 class registro : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
     private lateinit var binding: ActivityRegistroBinding
+    private val userRef = FirebaseDatabase.getInstance().getReference("Users")
+    private lateinit var daoUser : DAOUser
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +23,7 @@ class registro : AppCompatActivity() {
         setContentView(binding.root)
 
         auth = Firebase.auth
+        daoUser = DAOUser()
 
         binding.btnSiguiente.setOnClickListener {
             val email = binding.etCorreo.text.toString()
@@ -34,18 +35,31 @@ class registro : AppCompatActivity() {
             }else if(password.length < 6){
                 Toast.makeText(baseContext,"Contrasenia muy corta", Toast.LENGTH_SHORT).show()
             }else{
-                createAccount(email,password)
+                createAccount(user,email,nombre,password)
             }
 
         }
 
     }
 
-    private fun createAccount(email: String, password: String){
-        auth.createUserWithEmailAndPassword(email,password)
+    private fun createAccount(usuario: String, correo:String, nombre: String, password: String){
+        auth.createUserWithEmailAndPassword(correo,password)
             .addOnCompleteListener(this){ task ->
                 if(task.isSuccessful){
                     Toast.makeText(baseContext,"Usuario registado con exito", Toast.LENGTH_SHORT).show()
+                    var nuevo_usuario = Usuario(
+                        usuario,
+                        correo,
+                        nombre,
+                        password
+                    )
+                    daoUser.add(nuevo_usuario)
+                    /*.addOnFailureListener(this){ error ->
+                    Toast.makeText(baseContext,error.message.toString(), Toast.LENGTH_SHORT).show()
+                    Log.d("TAG", error.message.toString());
+
+                    }*/
+
                     reload()
                 }else{
                     Toast.makeText(baseContext,"Autentication failed", Toast.LENGTH_SHORT).show()
